@@ -24,7 +24,7 @@ install.packages(c("readxl", "dplyr", "tidyr", "lme4", "lmerTest", "emmeans", "e
 
 ## How to run
 
-1. Place the data file `ST_EEG_ACL.xlsx` in `data/` (see `data/README.md` for the expected structure).
+1. Place the data file `ST_EEG_ACL.xlsx` in a `data/` folder at the repository root.
 2. Open the repository folder as the working directory (e.g., as an RStudio project) and run:
 
 ```r
@@ -37,8 +37,4 @@ Participant-level data are not included because they contain health-related info
 
 ## Citation
 
-If you use this code, please cite the article above (see also `CITATION.cff`).
-
-## Licence
-
-Code released under the MIT Licence (see `LICENSE`).
+If you use this code, please cite the article above.
